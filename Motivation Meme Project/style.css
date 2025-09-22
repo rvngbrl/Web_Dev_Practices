@@ -1,0 +1,38 @@
+
+html {
+    background-color: black;;
+}
+
+
+.dragon{
+    text-align: center;
+    margin: 90px;
+ 
+    /* width: 50%;
+    height: 25%; */
+
+}
+
+img{
+    width: 50%;
+    height: 25%;
+    border: 5px solid white;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+
+    /* text-align: center; */
+}
+p{
+    color: white;
+    font-size: 12px;
+ 
+
+    text-align: center;
+}
