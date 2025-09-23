@@ -1,0 +1,37 @@
+
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+ .content .sidebar{
+    height: 500px;
+    width: 30%;
+    background-color: lightgreen;
+    float: left;
+}
+
+.content .main {
+    height: 500px;
+    width: 70%;
+    background-color: lightcoral;
+    float: right;
+   
+    text-align: center;
+}
+
+.main-site {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.footer {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+
+}
