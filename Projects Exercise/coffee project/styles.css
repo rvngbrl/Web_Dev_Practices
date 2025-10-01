@@ -1,0 +1,47 @@
+
+
+.coffee-header {
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(252, 237, 217);
+   padding-left: 20px;
+      padding-right: 20px;
+}
+
+.nav-bar {
+    display: flex;
+}
+.logo-coffeeproject{
+    padding-top:5px;
+}
+li {
+   list-style-type: none; 
+    margin: 5px;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.bg-image {
+   background-image: url(./assets/background.jpg);
+   background-size: cover;
+   height: 50vh;
+
+}
