@@ -14,15 +14,15 @@
 
 li {
    list-style-type: none; 
-    margin: 5px;
+    margin: 2px;
     padding: 10px;
     
 }
 a{
     text-decoration: none;
-    color: rgb(110, 54, 7);
+    color: rgb(29, 14, 2);
    
-    font-size: large;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -30,7 +30,6 @@ a{
 .fresh-brewed h1, .fresh-brewed p .the-menu h1{
     margin: 0;
     padding: 10px;
-
     text-align: center;
 }
 
@@ -64,13 +63,13 @@ a{
 }
 
 .order-now{
-    background-color: rgb(78, 40, 9);
+    background-color: rgb(124, 48, 4);
     border-radius: 5px;
     border: none;
     height: 50px;
    font-size: 20px;
     width: 200px;
-    font-weight:bold;
+    font-weight:300;
     color: white;
     cursor: pointer;
 }
@@ -93,7 +92,7 @@ a{
 .the-menu {
       background-color: rgb(252, 237, 217);
       margin: 0px;
-      height: 100vh;
+      height: 75vh;
       display: flex;
        
     flex-direction: column;
@@ -101,7 +100,104 @@ a{
 
 }
 
-.the-menu h1{
-    padding: 30px;
-      margin: 0px;
+.menu-boxes {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+.card-menu {
+  background-color: rgb(252, 244, 231);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 200px;
+
+  padding: 10px;
+}
+
+/* Wrapper ensures text starts at the same level */
+.menu-img-wrapper {
+  height: 170px; /* fixed height zone for all images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.menu-img.small {
+  max-height: 90%; /* tweak for smaller images if needed */
+}
+
+.card-box-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card-box-text h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.card-box-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.story-menu{
+    display: flex;
+    gap: 60px;
+    margin-top: 70px;
+}
+
+.story-img-wrapper {
+  height: 170px; /* fixed height zone for all images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 70px;
+}
+
+.story-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* keeps it proportional */
+}
+
+.story-text-big{
+   margin-bottom: 0px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    
+}
+
+.story-text-sm{
+   font-size: 20px;
+}
+
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+     background-color: rgb(59, 26, 7);
+}
+
+.footer-text{
+      
+    color: white;
+    text-align: center;
+    
+}
+
+/* TODO: MAKE IT RESPONSIVE */
