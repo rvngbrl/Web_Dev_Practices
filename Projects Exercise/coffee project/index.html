@@ -18,20 +18,23 @@
   </head>
   <body>
     <header class="coffee-header">
-      <img
+      <div class="logo-image">
+         <img
         src="./assets/logo-coffeeproject.png"
         alt="coffee-project-img"
-        height="85px"
-        width="250px"
         class="logo-coffeeproject"
       />
-      <nav>
-        <ul class="nav-bar">
+      </div>
+     
+      <nav class="nav-bar">
+        <ul class="nav-links">
           <li><a href="#home" class="roboto-flex-regular">Home</a></li>
           <li><a href="#menu" class="roboto-flex-regular">Menu</a></li>
           <li><a href="#about" class="roboto-flex-regular">About</a></li>
           <li><a href="#contact" class="roboto-flex-regular">Contact</a></li>
         </ul>
+
+        <div class="hamburger-menu" id="hamburger">☰</div>
       </nav>
     </header>
 
@@ -49,63 +52,71 @@
       <div class="the-menu">
         <h1 class="dm-serif-text-regular menu-text">Our Menu</h1>
 
-     <div class="menu-boxes">
-  <div class="card-menu">
-    <div class="menu-img-wrapper">
-      <img src="./assets/latte.png" alt="Espresso" class="menu-img" />
-    </div>
-    <div class="card-box-text">
-      <h3>Espresso</h3>
-      <p>Rich and bold flavor</p>
-    </div>
-  </div>
+        <div class="menu-boxes">
+          <div class="card-menu">
+            <div class="menu-img-wrapper">
+              <img src="./assets/latte.png" alt="Espresso" class="menu-img" />
+            </div>
+            <div class="card-box-text">
+              <h3>Espresso</h3>
+              <p>Rich and bold flavor</p>
+            </div>
+          </div>
 
-  <div class="card-menu">
-    <div class="menu-img-wrapper">
-      <img src="./assets/cup-paper.png" alt="Latte" class="menu-img small" />
-    </div>
-    <div class="card-box-text">
-      <h3>Latte</h3>
-      <p>Smooth and Creamy</p>
-    </div>
-  </div>
+          <div class="card-menu">
+            <div class="menu-img-wrapper">
+              <img
+                src="./assets/cup-paper.png"
+                alt="Latte"
+                class="menu-img small"
+              />
+            </div>
+            <div class="card-box-text">
+              <h3>Latte</h3>
+              <p>Smooth and Creamy</p>
+            </div>
+          </div>
 
-  <div class="card-menu">
-    <div class="menu-img-wrapper">
-      <img src="./assets/cappucino.png" alt="Cappuccino" class="menu-img" />
-    </div>
-    <div class="card-box-text">
-      <h3>Cappuccino</h3>
-      <p>Espresso with frothed milk</p>
-    </div>
-  </div>
-</div>
+          <div class="card-menu">
+            <div class="menu-img-wrapper">
+              <img
+                src="./assets/cappucino.png"
+                alt="Cappuccino"
+                class="menu-img"
+              />
+            </div>
+            <div class="card-box-text">
+              <h3>Cappuccino</h3>
+              <p>Espresso with frothed milk</p>
+            </div>
+          </div>
+        </div>
 
-<div class="story-menu">
+        <div class="story-menu">
+          <div class="story-img-wrapper">
+            <img
+              src="./assets/coffee-shop.jpg"
+              alt="storePicture"
+              class="menu-img small"
+            />
+          </div>
 
-  <div class="story-img-wrapper">
-    <img src="./assets/coffee-shop.jpg" alt="storePicture" class="menu-img small">
-  </div>
-
-  <div class="story-text">
-         <h1 class="dm-serif-text-regular story-text-big">Our Story</h1>
-         <h2 class="roboto-flex-regular story-text-sm">We've been brewing smile since <br>1998</h2>
-
-  </div>
-</div>
-
-
-
-       
+          <div class="story-text">
+            <h1 class="dm-serif-text-regular story-text-big">Our Story</h1>
+            <h2 class="roboto-flex-regular story-text-sm">
+              We've been brewing smile since <br />1998
+            </h2>
+          </div>
+        </div>
       </div>
     </section>
-
-
 
     <footer class="footer-coffee">
       <div class="footer-box">
         <p class="footer-text">© 2025 Coffee Project Basic HTML and CSS.</p>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
